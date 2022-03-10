@@ -9,9 +9,9 @@ import { ConnectionService } from 'src/app/services/connection.service';
 })
 export class UsersPageComponent implements OnInit {
 
-  users: User[] = []
+  users: User[] = [];
 
-  constructor(private conServ: ConnectionService) { }
+  constructor(private conServ: ConnectionService) {}
 
   ngOnInit(): void {
     // this.conServ.fetchUsers()

@@ -8,7 +8,8 @@ import { User } from 'src/app/model/user';
 })
 export class UserDetailComponent implements OnInit {
 
-  @Input() pluto?: User;
+  @Input() user?: User;
+  @Input() isPartial?: Boolean;
 
   constructor() { }
 

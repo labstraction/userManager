@@ -8,6 +8,7 @@ import { UserDetailComponent } from './components/user-detail/user-detail.compon
 import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
 import { AddressCardComponent } from './components/address-card/address-card.component';
 import { SigleUserPageComponent } from './components/sigle-user-page/sigle-user-page.component';
+import { PostComponent } from './components/post/post.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { SigleUserPageComponent } from './components/sigle-user-page/sigle-user-
     UserDetailComponent,
     PageNotFoundComponent,
     AddressCardComponent,
-    SigleUserPageComponent
+    SigleUserPageComponent,
+    PostComponent
   ],
   imports: [
     BrowserModule,
